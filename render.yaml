@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: crazy-time-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: BOT_PORT
+        value: "5000"
