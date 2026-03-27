@@ -43,28 +43,13 @@ USER_AGENTS = [
 
 SOURCES = [
     {
-        "name": "casino_guru",
-        "urls": [
-            "https://casino.guru/live-game-stats/crazy-time-live",
-            "https://casino.guru/live-game-stats/crazy-time",
-            "https://casino.guru/live-casino-crazy-time-statistics",
-        ],
-    },
-    {
         "name": "livecasinocomparer",
         "urls": [
             "https://www.livecasinocomparer.com/live-casino-statistics/evolution-crazy-time-statistics/",
             "https://www.livecasinocomparer.com/crazy-time-statistics/",
         ],
     },
-    {
-        "name": "tracksino",
-        "urls": [
-            "https://tracksino.com/crazytime",
-        ],
-    },
 ]
-
 # ─── STATO GLOBALE ─────────────────────────────────────────────────────────────
 
 state = {
